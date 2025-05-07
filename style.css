@@ -1,0 +1,27 @@
+.hero {
+  background-image: url(images/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 200px;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 130px;
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.btn-branding {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 230px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  width: 200px;
+}
