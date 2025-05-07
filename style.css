@@ -7,6 +7,32 @@ body {
   font-family: var(--primary-font);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 .hero {
   background-image: url(images/hero-image.jpg);
   background-size: cover;
@@ -18,7 +44,7 @@ body {
   position: absolute;
   top: 130px;
   color: white;
-  font-size: 80px;
+  font-size: 90px;
   text-transform: uppercase;
   font-family: var(--secondary-font);
 }
