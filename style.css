@@ -7,6 +7,12 @@ body {
   font-family: var(--primary-font);
 }
 
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 100px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -70,4 +76,10 @@ nav a:hover {
 .btn-branding:hover {
   background-color: white;
   opacity: 100%;
+}
+
+video {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
 }
