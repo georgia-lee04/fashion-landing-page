@@ -18,6 +18,12 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
 }
 
 .logo-text {
@@ -89,6 +95,29 @@ nav a:hover {
 }
 
 .btn-branding:hover {
+  background-color: white;
+  opacity: 100%;
+}
+
+.btn-center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 320px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  width: 140px;
+  background-color: white;
+  opacity: 70%;
+  color: black;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-center:hover {
   background-color: white;
   opacity: 100%;
 }
