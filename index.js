@@ -1,9 +1,9 @@
 const swiper = new Swiper(".swiper", {
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 10,
 
   autoplay: {
-    delay: 5000,
+    delay: 4000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -29,7 +29,7 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 5,
     },
   },
 });

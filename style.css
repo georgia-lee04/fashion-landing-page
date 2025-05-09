@@ -91,6 +91,14 @@ video {
   margin: 0 auto;
 }
 
+.swiper-slide img {
+  height: 400px;
+}
+
+.swiper-pagination-bullet {
+  background: black;
+}
+
 footer {
   max-width: 100%;
   margin: 0 auto;
