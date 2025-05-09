@@ -20,6 +20,12 @@ h2 {
   font-weight: 600;
 }
 
+.logo-text {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -33,6 +39,8 @@ nav li {
   display: inline;
   list-style: none;
   margin-left: 30px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 nav a {
@@ -85,6 +93,21 @@ nav a:hover {
   opacity: 100%;
 }
 
+.link {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
 video {
   max-width: 500px;
   display: block;
@@ -103,4 +126,5 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   padding: 80px 100px;
+  background: #ebeae6;
 }
