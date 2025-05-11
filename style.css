@@ -155,5 +155,47 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   padding: 80px 100px;
-  background: #ebeae6;
+  background: #fcfcfa;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.socials li {
+  display: inline;
+  margin-right: 30px;
 }
