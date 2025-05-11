@@ -21,6 +21,11 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+}
+
 p {
   text-align: center;
   font-size: 13px;
@@ -200,7 +205,28 @@ footer li {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-2-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .socials li {
   display: inline;
   margin-right: 30px;
+}
+
+.discount-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.discount-button:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
 }
