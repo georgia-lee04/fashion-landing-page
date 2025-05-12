@@ -13,6 +13,12 @@ section {
   padding: 80px 100px;
 }
 
+.p-container {
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
+}
+
 h2 {
   font-size: 20px;
   text-transform: uppercase;
@@ -37,6 +43,12 @@ h6 {
   font-family: var(--secondary-font);
   font-size: 14px;
   margin-top: 10px;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 16px;
 }
 
 .item-price {
