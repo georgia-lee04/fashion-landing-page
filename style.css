@@ -26,7 +26,25 @@ h4 {
   font-size: 30px;
 }
 
-p {
+h5 {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h6 {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.item-price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-p {
   text-align: center;
   font-size: 13px;
 }
@@ -229,4 +247,22 @@ footer li {
   background: transparent;
   color: black;
   border: 1px solid black;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 2px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+
+.col-4 img {
+  width: 100%;
 }
