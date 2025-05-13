@@ -100,16 +100,19 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.hero {
-  background-image: url(images/hero-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 300px 200px;
+.video-container {
+  position: relative;
+  overflow: hidden;
+}
+.hero-video {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .hero-heading {
   position: absolute;
-  top: 130px;
+  top: 300px;
+  left: 250px;
   color: white;
   font-size: 90px;
   text-transform: uppercase;
@@ -121,7 +124,7 @@ nav a:hover {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: 240px;
+  bottom: 240px;
   padding: 15px 30px;
   border-radius: 30px;
   width: 140px;
