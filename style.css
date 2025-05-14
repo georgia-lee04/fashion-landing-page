@@ -61,27 +61,19 @@ p {
   font-size: 13px;
 }
 
-.logo-text {
-  font-family: var(--secondary-font);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-nav {
-  padding: 20px 0;
-}
-
 nav ul {
   padding: 0;
   margin: 0;
+  padding: 20px 0;
 }
 
 nav li {
   display: inline;
   list-style: none;
   margin-left: 30px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 nav a {
@@ -98,6 +90,18 @@ nav a:hover {
 .nav-main-ul {
   display: block;
   margin: 0 auto;
+}
+
+.logo-text {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.logo-text:hover {
+  text-decoration: none;
 }
 
 .video-container {
