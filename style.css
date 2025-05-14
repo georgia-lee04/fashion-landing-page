@@ -186,6 +186,17 @@ video {
   margin: 0 auto;
 }
 
+.video {
+  transition: opacity 0.3s ease;
+  opacity: 0.8;
+  transition: box-shadow 0.3s ease;
+}
+
+.video:hover {
+  opacity: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 .swiper-slide img {
   height: 400px;
 }
