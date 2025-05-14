@@ -205,6 +205,30 @@ video {
   background: black;
 }
 
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 0;
+}
+
+.gallery-container .boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-container .box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.gallery-container img {
+  width: 100%;
+  padding: 2px;
+}
+
 footer {
   max-width: 100%;
   margin: 0 auto;
