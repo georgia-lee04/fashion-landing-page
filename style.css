@@ -10,7 +10,7 @@ body {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 80px 100px;
+  padding: 30px 100px 60px;
 }
 
 .p-container {
@@ -182,6 +182,30 @@ nav a:hover {
 .link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
+}
+
+.mens-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  margin-top: 300px;
+}
+
+.mens-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.homepage-hero {
+  background-image: url("/images/homepage-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 200px;
+  margin: 0;
 }
 
 video {
