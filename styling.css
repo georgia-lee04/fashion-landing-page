@@ -19,6 +19,10 @@ section {
   padding: 30px 100px 60px;
 }
 
+main {
+  margin-top: 100px;
+}
+
 .p-container {
   max-width: 750px;
   display: block;
@@ -372,3 +376,112 @@ footer li {
 .github-icon:hover {
   transform: scale(1.1);
 }
+
+.simple-nav-container {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 128px;
+  padding-right: 90px;
+}
+
+.simple-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.simple-nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.simple-nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.simple-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.nav-main-ul {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+ul li ul.dropdown-products li {
+  display: block;
+}
+
+ul li ul.dropdown-products {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  display: none;
+}
+
+ul li:hover ul.dropdown-products {
+  display: block;
+}
+  */
+
+.logo-text-black {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 32px;
+}
+
+.logo-text-black:hover {
+  text-decoration: none;
+}
+
+/*
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 7px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+*/
