@@ -3,6 +3,12 @@
   --secondary-font: "Playfair Display", serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--primary-font);
 }
@@ -61,6 +67,62 @@ p {
   font-size: 13px;
 }
 
+.nav-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 128px;
+  padding-right: 90px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+}
+/* VIDEO STYLING */
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.is-scrolling {
+  background: black;
+  opacity: 0.9;
+}
+
+.logo-text {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+}
+
 nav ul {
   padding: 0;
   margin: 0;
@@ -78,7 +140,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: all 150ms ease-in-out;
 }
 
@@ -90,27 +152,7 @@ nav a:hover {
 .nav-main-ul {
   display: block;
   margin: 0 auto;
-}
-
-.logo-text {
-  font-family: var(--secondary-font);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 32px;
-  margin-top: 5px;
-}
-
-.logo-text:hover {
-  text-decoration: none;
-}
-
-.video-container {
-  position: relative;
-  overflow: hidden;
-}
-.hero-video {
-  max-width: 100%;
-  max-height: 100%;
+  margin-right: 120px;
 }
 
 .hero-heading {
@@ -120,15 +162,16 @@ nav a:hover {
   color: white;
   font-size: 90px;
   text-transform: uppercase;
-  font-family: var(--secondary-font);
+  font-family: "Playfair Display", serif;
 }
 
 .btn-branding {
-  text-align: center;
   display: block;
   margin: 0 auto;
-  position: relative;
-  bottom: 240px;
+  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 560px;
   padding: 15px 30px;
   border-radius: 30px;
   width: 140px;
@@ -198,31 +241,6 @@ nav a:hover {
 .mens-link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
-}
-
-.homepage-hero {
-  background-image: url("/images/homepage-banner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 300px 200px;
-  margin: 0;
-}
-
-video {
-  max-width: 500px;
-  display: block;
-  margin: 0 auto;
-}
-
-.video {
-  transition: opacity 0.3s ease;
-  opacity: 0.8;
-  transition: box-shadow 0.3s ease;
-}
-
-.video:hover {
-  opacity: 1;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .swiper-slide img {

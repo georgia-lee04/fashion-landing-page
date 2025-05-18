@@ -1,3 +1,13 @@
+window.onload = function () {
+  window.addEventListener("scroll", function (event) {
+    if (window.pageYOffset > 100) {
+      document.querySelector("header").classList.add("is-scrolling");
+    } else {
+      document.querySelector("header").classList.remove("is-scrolling");
+    }
+  });
+};
+
 const swiper = new Swiper(".swiper", {
   loop: true,
   spaceBetween: 10,
@@ -32,18 +42,4 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 5,
     },
   },
-});
-
-const videos = document.querySelectorAll(".video");
-
-videos.forEach((video) => {
-  video.addEventListener("mouseenter", () => {
-    video.loop = true;
-    video.play();
-  });
-
-  video.addEventListener("mouseleave", () => {
-    video.pause();
-    video.currentTime = 0;
-  });
 });

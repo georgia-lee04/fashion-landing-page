@@ -27,52 +27,66 @@
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styling.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" class="logo-text"> Lineage </a>
-        <ul class="nav-main-ul">
-          <li>
-            <a href="/women.html">WOMEN</a>
-          </li>
-          <li>
-            <a href="/men.html">MEN</a>
-          </li>
-          <li>
-            <a href="#">SUMMER COORDS</a>
-          </li>
-          <li>
-            <a href="/gallery.html">INSPIRATION</a>
-          </li>
-          </ul>
-          <ul>
-          <li>
-          <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-          </li>
-          <li>
-          <i class="fa-regular fa-user" style="color: #000000;"></i>
-          </li>
-         <li>
-<i class="fa-regular fa-heart" style="color: #000000;"></i>
-         </li>
-         <li>
-          <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
-         </li>
-        </ul>
-      </nav>
-    </div>
-
-    <header class="hero video-container">
-      <video src="/videos/hero-video-4.mp4" autoplay loop muted class="hero-video"></video>
+    <header>
+       <div class="nav-container">
+          <a href="#" class="logo-text">Lineage</a>
+          <nav class="d-flex justify-content-between">
+            <ul class="nav-main-ul">
+              <li>
+                <a href="#">WOMEN</a>
+               
+              </li>
+              <li>
+                <a href="#">MEN</a>
+                
+              </li>
+              <li>
+                <a href="#">SUMMER COORDS</a>
+              </li>
+              <li>
+                <a href="#">INSPIRATION</a>
+              </li>
+            </ul>
+  
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-magnifying-glass" style="color: #fff"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-user" style="color: #fff"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-heart" style="color: #fff"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-bag-shopping" style="color: #fff"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+  
+      <div class="hero">
+      <video autoplay muted loop playsinline class="video-bg">
+        <source src="/videos/hero-video-4.mp4" type="video/mp4" />
+      </video>
+  
       <h1 class="hero-heading">Lineage Summer</h1>
       <a href="#" class="btn btn-branding">New in</a>
+    </div>
 
-    </header>
-
-   
-   
+  
 
     <section class="container">
       <div class="row">
@@ -177,7 +191,7 @@
      <a href="/gallery.html" class="link mt-5">View more looks</a>
     </section>
 
-    <footer>
+  <footer>
    <div class="grid grid-3-columns">
 
     <div>
@@ -208,10 +222,8 @@
           Store Locator
         </a>
         </li>
-        <a href="" class="footer-link">
-        <li>Site Map
-        </a>
-        </li>
+        <li><a href="" class="footer-link">Site Map</a></li>
+
       </ul>
     </div>
 
