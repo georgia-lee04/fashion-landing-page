@@ -80,7 +80,7 @@ p {
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 128px;
-  padding-right: 90px;
+  padding-right: 60px;
 }
 
 .hero {
@@ -156,7 +156,7 @@ nav a:hover {
 .nav-main-ul {
   display: block;
   margin: 0 auto;
-  margin-right: 120px;
+  margin-right: 140px;
 }
 
 .hero-heading {
@@ -412,11 +412,6 @@ footer li {
 .simple-nav a:hover {
   text-decoration: underline;
   text-underline-offset: 8px;
-}
-
-.nav-main-ul {
-  display: block;
-  margin: 0 auto;
 }
 
 /*
