@@ -175,7 +175,7 @@ nav a:hover {
   text-align: center;
   position: absolute;
   bottom: 200px;
-  margin-left: 560px;
+  margin-left: 570px;
   padding: 15px 30px;
   border-radius: 30px;
   width: 140px;
@@ -377,41 +377,77 @@ footer li {
   transform: scale(1.1);
 }
 
-.simple-nav-container {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding-left: 128px;
-  padding-right: 90px;
-}
+@media (max-width: 960px) {
+  .hero-heading {
+    font-size: 40px;
+    left: 60px;
+  }
 
-.simple-nav ul {
-  padding: 0;
-  margin: 0;
-}
+  .btn-branding {
+    bottom: 250px;
+    font-size: 12px;
+    padding: 15px 15px;
 
-.simple-nav li {
-  display: inline;
-  list-style: none;
-  margin-left: 30px;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+    width: 120px;
+    margin-left: 170px;
+  }
 
-.simple-nav a {
-  text-decoration: none;
-  color: black;
-  transition: all 150ms ease-in-out;
-}
+  .nav-container {
+    padding-left: 30px;
+  }
 
-.simple-nav a:hover {
-  text-decoration: underline;
-  text-underline-offset: 8px;
+  nav ul li {
+    display: none;
+  }
+
+  .mens-link {
+    margin-top: 100px;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  .btn-center {
+    bottom: 150px;
+    font-size: 12px;
+    padding: 15px 15px;
+
+    width: 120px;
+  }
+
+  footer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 50px;
+    background: #fcfcfa;
+  }
+
+  footer h3 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .footer-link {
+    font-size: 9px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .discount-button {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+
+  .socials li {
+    font-size: 10px;
+  }
 }
 
 /*
@@ -431,17 +467,6 @@ ul li:hover ul.dropdown-products {
   display: block;
 }
   */
-
-.logo-text-black {
-  font-family: var(--secondary-font);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 32px;
-}
-
-.logo-text-black:hover {
-  text-decoration: none;
-}
 
 /*
 .hamburger {

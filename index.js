@@ -33,10 +33,10 @@ const swiper = new Swiper(".swiper", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     620: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     1024: {
       slidesPerView: 5,
