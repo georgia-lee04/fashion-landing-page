@@ -37,6 +37,13 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 15px;
+
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
 h4 {
   font-family: var(--secondary-font);
   font-size: 30px;
@@ -222,7 +229,7 @@ nav a:hover {
   margin-top: 15px;
 }
 
-hr {
+.hamburger-hr {
   border: 1px solid white;
   width: 90%;
   display: block;
@@ -384,6 +391,75 @@ hr {
 .gallery-container img {
   width: 100%;
   padding: 2px;
+}
+
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+
+.single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 33%;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+  margin-top: 70px;
+}
+
+.product-name {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  color: black;
+  padding: 40px 0 20px 0;
+}
+
+.product-page-price {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  color: black;
+}
+
+.single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin: 20px 0;
+  width: 400px;
+  font-size: 14px;
+}
+
+.black-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.recommended-text {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+
+  margin-top: 20px;
 }
 
 footer {
