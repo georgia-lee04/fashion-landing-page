@@ -85,10 +85,10 @@
                     <img src="/images/homepage-square-2.png" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="/images/homepage-square-2.png" width="100%" class="small-img" alt="">
+                    <img src="/images/homepage-square.png" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="/images/homepage-square-2.png" width="100%" class="small-img" alt="">
+                    <img src="/images/feature-square-1.png" width="100%" class="small-img" alt="">
                 </div>
             </div>
         </div>
@@ -258,6 +258,21 @@
   </a>
   </div>
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/index.js"></script>
