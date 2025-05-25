@@ -472,6 +472,33 @@ nav a:hover {
   margin-top: 20px;
 }
 
+.product-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 125%;
+}
+
+.product-image-wrapper img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-image-wrapper .hover-img {
+  opacity: 0;
+}
+
+.product-image-wrapper:hover .default-img {
+  opacity: 0;
+}
+
+.product-image-wrapper:hover .hover-img {
+  opacity: 1;
+}
+
 footer {
   max-width: 100%;
   margin: 0 auto;
