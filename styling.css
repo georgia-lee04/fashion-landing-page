@@ -420,9 +420,13 @@ nav a:hover {
 }
 
 .small-img-col {
-  flex-basis: 33%;
+  flex-basis: 24.5%;
   margin-top: 2px;
   cursor: pointer;
+}
+
+.small-img {
+  width: 100%;
 }
 
 .single-pro-details {
@@ -463,6 +467,10 @@ nav a:hover {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
+}
+
+.product-details {
+  text-align: left;
 }
 
 .recommended-text {
