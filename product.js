@@ -1,6 +1,7 @@
 const products = [
   {
     id: "allsaints1",
+    category: "women",
     name: "Rivi Draped Sleeveless Midi Dress",
     price: "£119.00",
     description:
@@ -14,6 +15,7 @@ const products = [
   },
   {
     id: "allsaints2",
+    category: "women",
     name: "Louie Wide Leg Denim Jorts",
     price: "£119.00",
     description:
@@ -27,6 +29,7 @@ const products = [
   },
   {
     id: "allsaints3",
+    category: "women",
     name: "Flora Embroidered Denim Top",
     price: "£149.00",
     description:
@@ -40,6 +43,7 @@ const products = [
   },
   {
     id: "allsaints4",
+    category: "women",
     name: "Faye Oversized Denim Shirt Dress",
     price: "£179.00",
     description:
@@ -53,6 +57,7 @@ const products = [
   },
   {
     id: "allsaints5",
+    category: "women",
     name: "Rosa Hex Maxi Dress",
     price: "£159.00",
     description:
@@ -66,6 +71,7 @@ const products = [
   },
   {
     id: "allsaints6",
+    category: "women",
     name: "Faye Denim Mini Dress",
     price: "£179.00",
     description:
@@ -79,6 +85,7 @@ const products = [
   },
   {
     id: "allsaints7",
+    category: "women",
     name: "Leighton Cotton Utility Jacket",
     price: "£259.00",
     description:
@@ -92,6 +99,7 @@ const products = [
   },
   {
     id: "allsaints8",
+    category: "women",
     name: "Bonnie Tailored Wide-Leg Linen Blend Trousers",
     price: "£229.00",
     description:
@@ -105,6 +113,7 @@ const products = [
   },
   {
     id: "allsaints9",
+    category: "women",
     name: "Talia Tiered Maxi Skirt",
     price: "£179.00",
     description:
@@ -118,6 +127,7 @@ const products = [
   },
   {
     id: "allsaints10",
+    category: "women",
     name: "Pamela High-Rise Mini Skirt",
     price: "£139.00",
     description:
@@ -132,6 +142,7 @@ const products = [
 
   {
     id: "allsaints11",
+    category: "women",
     name: "Asha Woven Straw Hobo Shoulder Bag",
     price: "£159.00",
     description:
@@ -145,6 +156,7 @@ const products = [
   },
   {
     id: "allsaints12",
+    category: "women",
     name: "Louie Metallic Long Denim Shorts",
     price: "£129.00",
     description:
@@ -158,6 +170,7 @@ const products = [
   },
   {
     id: "allsaints13",
+    category: "women",
     name: "Charli Embroidered Straight Fit Trousers",
     price: "£169.00",
     description:
@@ -171,6 +184,7 @@ const products = [
   },
   {
     id: "allsaints14",
+    category: "women",
     name: "Gabby Floral Print Mesh Maxi Dress",
     price: "£139.00",
     description:
