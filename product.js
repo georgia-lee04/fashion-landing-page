@@ -192,8 +192,8 @@ const products = [
     images: [
       "/images/allsaints-m-1.png",
       "/images/allsaints-m-1-hover.png",
-      "/images/women/allsaints-m-1.1.png",
-      "/images/women/allsaints-m-1.2-hover.png",
+      "/images/allsaints-m-1.1.png",
+      "/images/allsaints-m-1.2-hover.png",
     ],
   },
   {
@@ -206,8 +206,8 @@ const products = [
     images: [
       "/images/allsaints-m-2.png",
       "/images/allsaints-m-2-hover.png",
-      "/images/women/allsaints-m-2.1.png",
-      "/images/women/allsaints-m-2.2.png",
+      "/images/allsaints-m-2.1.png",
+      "/images/allsaints-m-2.2.png",
     ],
   },
   {
@@ -220,8 +220,8 @@ const products = [
     images: [
       "/images/allsaints-m-3.png",
       "/images/allsaints-m-3-hover.png",
-      "/images/women/allsaints-m-3.1.png",
-      "/images/women/allsaints-m-3.2.png",
+      "/images/wallsaints-m-3.1.png",
+      "/images/allsaints-m-3.2.png",
     ],
   },
   {
@@ -234,8 +234,8 @@ const products = [
     images: [
       "/images/allsaints-m-4.png",
       "/images/allsaints-m-4-hover.png",
-      "/images/women/allsaints-m-4.1.png",
-      "/images/women/allsaints-m-4.2.png",
+      "/images/allsaints-m-4.1.png",
+      "/images/allsaints-m-4.2.png",
     ],
   },
   {
@@ -248,8 +248,8 @@ const products = [
     images: [
       "/images/allsaints-m-5.png",
       "/images/allsaints-m-5-hover.png",
-      "/images/women/allsaints-m-5.1.png",
-      "/images/women/allsaints-m-5.2.png",
+      "/images/allsaints-m-5.1.png",
+      "/images/allsaints-m-5.2.png",
     ],
   },
   {
@@ -262,8 +262,8 @@ const products = [
     images: [
       "/images/allsaints-m-6.png",
       "/images/allsaints-m-6-hover.png",
-      "/images/women/allsaints-m-6.1.png",
-      "/images/women/allsaints-m-6.2.png",
+      "/images/allsaints-m-6.1.png",
+      "/images//allsaints-m-6.2.png",
     ],
   },
   {
@@ -276,8 +276,8 @@ const products = [
     images: [
       "/images/allsaints-m-7.png",
       "/images/allsaints-m-7-hover.png",
-      "/images/women/allsaints-m-7.1.png",
-      "/images/women/allsaints-m-7.2.png",
+      "/images/allsaints-m-7.1.png",
+      "/images/allsaints-m-7.2.png",
     ],
   },
   {
@@ -290,8 +290,8 @@ const products = [
     images: [
       "/images/allsaints-m-8.png",
       "/images/allsaints-m-8-hover.png",
-      "/images/women/allsaints-m-8.1.png",
-      "/images/women/allsaints-m-8.2.png",
+      "/images/allsaints-m-8.1.png",
+      "/images/allsaints-m-8.2.png",
     ],
   },
   {
@@ -304,8 +304,8 @@ const products = [
     images: [
       "/images/allsaints-m-9.png",
       "/images/allsaints-m-9-hover.png",
-      "/images/women/allsaints-m-9.1.png",
-      "/images/women/allsaints-m-9.2.png",
+      "/images/allsaints-m-9.1.png",
+      "/images/allsaints-m-9.2.png",
     ],
   },
   {
@@ -318,8 +318,8 @@ const products = [
     images: [
       "/images/allsaints-m-10.png",
       "/images/allsaints-m-10-hover.png",
-      "/images/women/allsaints-m-10.1.png",
-      "/images/women/allsaints-m-10.2.png",
+      "/images/allsaints-m-10.1.png",
+      "/images/allsaints-m-10.2.png",
     ],
   },
   {
@@ -332,8 +332,8 @@ const products = [
     images: [
       "/images/allsaints-m-11.png",
       "/images/allsaints-m-11-hover.png",
-      "/images/women/allsaints-m-11.1.png",
-      "/images/women/allsaints-m-11.2.png",
+      "/images/allsaints-m-11.1.png",
+      "/images/allsaints-m-11.2.png",
     ],
   },
   {
@@ -346,8 +346,8 @@ const products = [
     images: [
       "/images/allsaints-m-12.png",
       "/images/allsaints-m-12-hover.png",
-      "/images/women/allsaints-m-12.1.png",
-      "/images/women/allsaints-m-12.2.png",
+      "/images/allsaints-m-12.1.png",
+      "/images/allsaints-m-12.2.png",
     ],
   },
 ];
