@@ -182,6 +182,174 @@ const products = [
       "/images/women/allsaints-14.2.png",
     ],
   },
+  {
+    id: "allsaints-m-1",
+    category: "men",
+    name: "Rothwell Washed Cotton Workwear Jacket",
+    price: "£169.00",
+    description:
+      "Keep things simple with this staple jacket. Made from hardwearing organic cotton, this is the Rothwell. Shaped to a regular fit with long sleeves and a collar. It zips up and is complete with one chest pocket – stylish functionality.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-2",
+    category: "men",
+    name: "Wavy Oversized Crew Neck T-Shirt",
+    price: "£59.00",
+    description:
+      "Ride that wave this summer with our Wavy crew neck. Crafted from organic cotton and shaped to an oversized fit, this t-shirt makes waves with it's signature hand-drawn graphic. With an airbrush print on the chest and an aerosol-painted screenprint featured on the back, say hello to your new go-to tee.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-3",
+    category: "men",
+    name: "Kylo Short Sleeve Shirt",
+    price: "£129.00",
+    description:
+      "The definition of a summer shirt. The Kylo is shaped to a relaxed frame from lightweight cotton with a textured diamond pattern. Everything from the short sleeves to the camp collar renders it perfect for warmer days.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-4",
+    category: "men",
+    name: "Arran Short Sleeve Shirt",
+    price: "£119.00",
+    description:
+      "Where do we start with the Arran? Shaped to a boxy silhouette with a lightweight feel, this short-sleeved style is defined by its signature striped pattern inspired by classic shirts. Complete with a resort collar and button closure, the Arran is a first-class choice for your spring/summer wardrobe.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-5",
+    category: "men",
+    name: "Cooper Short Sleeve Shirt",
+    price: "£119.00",
+    description:
+      "Our Cooper Shirt is shaped to an easy, relaxed silhouette with short sleeves. It's a classic style with a camp collar and straight hem, completed with its signature crepe textured check. Wear with our Cooper Shorts for a coordinated outfit.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-6",
+    category: "men",
+    name: "Loire Short Sleeve Open Knit Cardigan",
+    price: "£119.00",
+    description:
+      "Meet the Loire – a truly unique design. A short-sleeve cardigan shaped to a Hawaiian shirt silhouette, the open lace-style stitching with ribbed trims creates a relaxed yet neat look. Ideal for transitional weather – dress up or down.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-7",
+    category: "men",
+    name: "Bradner Lightweight Jacket",
+    price: "£239.00",
+    description:
+      "Introducing the Bradner Jacket – a clean, lightweight style that’ll see you through all seasons. This fully lined, regular-fit piece is enhanced by a point collar and our signature AllSaints branding featured on a leather back patch. Wear it over a shirt as a more casual alternative to a blazer.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-8",
+    category: "men",
+    name: "Biarritz Short Sleeve Printed Shirt",
+    price: "£119.00",
+    description:
+      "Picture the scene – you’re strolling down a beach with a cocktail in hand, your toes sinking into the sand, and you're wearing our Biarritz Short-Sleeve Hawaiian Shirt. Be it Miami or Mykonos, a holiday isn’t complete without one of our relaxed-fit, camp-collar shirts.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-9",
+    category: "men",
+    name: "Serge Leopard Jacquard Vest",
+    price: "£149.00",
+    description:
+      "Wild Thing. Our Serge Tank is designed with a colourful leopard jacquard and is shaped with ribbed trims.The mohair blend created a lightweight and hairy textured finish. Style it over an all-white look.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-10",
+    category: "men",
+    name: "Loire Short Sleeve Open Knit Cardigan",
+    price: "£119.00",
+    description:
+      "The definition of a summer layer. The Loire is shaped from a cotton and linen blend with an open lace-style stitch. Everything from the short sleeves to the Hawaiian collar renders it perfect for warmer days.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-11",
+    category: "men",
+    name: "Nellcot Zip Up Leather Jacket",
+    price: "£439.00",
+    description:
+      "The Nellcot is inspired by vintage AllSaints styles. Complete with western yoke detailing, the leather has a heavy washed look. Concealed snaps at the collar and cuffs enhance this boxy silhouette's minimalist feel. Add a new classic to your wardbrobe.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
+  {
+    id: "allsaints-m-12",
+    category: "men",
+    name: "Harvey Distressed Crew Neck Jumper",
+    price: "£149.00",
+    description:
+      "Bring the attitude, keep cosy – it's a no brainer. The Harvey Jumper features a soft fluffy texture with distressed punk-inspired detailing – cross-shaped holes and ladders – bringing an edge to this unique design.",
+    images: [
+      "/images/allsaints-m-1.png",
+      "/images/allsaints-m-1-hover.png",
+      "/images/women/allsaints-1.2.png",
+      "/images/women/allsaints-1-hover.png",
+    ],
+  },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
