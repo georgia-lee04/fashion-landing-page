@@ -234,7 +234,7 @@ const products = [
     images: [
       "/images/allsaints-m-3.png",
       "/images/allsaints-m-3-hover.png",
-      "/images/wallsaints-m-3.1.png",
+      "/images/allsaints-m-3.1.png",
       "/images/allsaints-m-3.2.png",
     ],
   },
