@@ -1,7 +1,7 @@
 const products = [
   {
     id: "allsaints1",
-    category: "women",
+    category: "Women",
     name: "Rivi Draped Sleeveless Midi Dress",
     price: "£119.00",
     description:
@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: "allsaints2",
-    category: "women",
+    category: "Women",
     name: "Louie Wide Leg Denim Jorts",
     price: "£119.00",
     description:
@@ -29,7 +29,7 @@ const products = [
   },
   {
     id: "allsaints3",
-    category: "women",
+    category: "Women",
     name: "Flora Embroidered Denim Top",
     price: "£149.00",
     description:
@@ -43,7 +43,7 @@ const products = [
   },
   {
     id: "allsaints4",
-    category: "women",
+    category: "Women",
     name: "Faye Oversized Denim Shirt Dress",
     price: "£179.00",
     description:
@@ -57,7 +57,7 @@ const products = [
   },
   {
     id: "allsaints5",
-    category: "women",
+    category: "Women",
     name: "Rosa Hex Maxi Dress",
     price: "£159.00",
     description:
@@ -71,7 +71,7 @@ const products = [
   },
   {
     id: "allsaints6",
-    category: "women",
+    category: "Women",
     name: "Faye Denim Mini Dress",
     price: "£179.00",
     description:
@@ -85,7 +85,7 @@ const products = [
   },
   {
     id: "allsaints7",
-    category: "women",
+    category: "Women",
     name: "Leighton Cotton Utility Jacket",
     price: "£259.00",
     description:
@@ -99,7 +99,7 @@ const products = [
   },
   {
     id: "allsaints8",
-    category: "women",
+    category: "Women",
     name: "Bonnie Tailored Wide-Leg Linen Blend Trousers",
     price: "£229.00",
     description:
@@ -113,7 +113,7 @@ const products = [
   },
   {
     id: "allsaints9",
-    category: "women",
+    category: "Women",
     name: "Talia Tiered Maxi Skirt",
     price: "£179.00",
     description:
@@ -127,7 +127,7 @@ const products = [
   },
   {
     id: "allsaints10",
-    category: "women",
+    category: "Women",
     name: "Pamela High-Rise Mini Skirt",
     price: "£139.00",
     description:
@@ -142,7 +142,7 @@ const products = [
 
   {
     id: "allsaints11",
-    category: "women",
+    category: "Women",
     name: "Asha Woven Straw Hobo Shoulder Bag",
     price: "£159.00",
     description:
@@ -156,7 +156,7 @@ const products = [
   },
   {
     id: "allsaints12",
-    category: "women",
+    category: "Women",
     name: "Louie Metallic Long Denim Shorts",
     price: "£129.00",
     description:
@@ -170,7 +170,7 @@ const products = [
   },
   {
     id: "allsaints13",
-    category: "women",
+    category: "Women",
     name: "Charli Embroidered Straight Fit Trousers",
     price: "£169.00",
     description:
@@ -184,7 +184,7 @@ const products = [
   },
   {
     id: "allsaints14",
-    category: "women",
+    category: "Women",
     name: "Gabby Floral Print Mesh Maxi Dress",
     price: "£139.00",
     description:
@@ -198,7 +198,7 @@ const products = [
   },
   {
     id: "allsaints-m-1",
-    category: "men",
+    category: "Men",
     name: "Rothwell Washed Cotton Workwear Jacket",
     price: "£169.00",
     description:
@@ -212,7 +212,7 @@ const products = [
   },
   {
     id: "allsaints-m-2",
-    category: "men",
+    category: "Men",
     name: "Wavy Oversized Crew Neck T-Shirt",
     price: "£59.00",
     description:
@@ -226,7 +226,7 @@ const products = [
   },
   {
     id: "allsaints-m-3",
-    category: "men",
+    category: "Men",
     name: "Kylo Short Sleeve Shirt",
     price: "£129.00",
     description:
@@ -240,7 +240,7 @@ const products = [
   },
   {
     id: "allsaints-m-4",
-    category: "men",
+    category: "Men",
     name: "Arran Short Sleeve Shirt",
     price: "£119.00",
     description:
@@ -254,7 +254,7 @@ const products = [
   },
   {
     id: "allsaints-m-5",
-    category: "men",
+    category: "Men",
     name: "Cooper Short Sleeve Shirt",
     price: "£119.00",
     description:
@@ -268,7 +268,7 @@ const products = [
   },
   {
     id: "allsaints-m-6",
-    category: "men",
+    category: "Men",
     name: "Loire Short Sleeve Open Knit Cardigan",
     price: "£119.00",
     description:
@@ -282,7 +282,7 @@ const products = [
   },
   {
     id: "allsaints-m-7",
-    category: "men",
+    category: "Men",
     name: "Bradner Lightweight Jacket",
     price: "£239.00",
     description:
@@ -296,7 +296,7 @@ const products = [
   },
   {
     id: "allsaints-m-8",
-    category: "men",
+    category: "Men",
     name: "Biarritz Short Sleeve Printed Shirt",
     price: "£119.00",
     description:
@@ -310,7 +310,7 @@ const products = [
   },
   {
     id: "allsaints-m-9",
-    category: "men",
+    category: "Men",
     name: "Serge Leopard Jacquard Vest",
     price: "£149.00",
     description:
@@ -324,7 +324,7 @@ const products = [
   },
   {
     id: "allsaints-m-10",
-    category: "men",
+    category: "Men",
     name: "Loire Short Sleeve Open Knit Cardigan",
     price: "£119.00",
     description:
@@ -338,7 +338,7 @@ const products = [
   },
   {
     id: "allsaints-m-11",
-    category: "men",
+    category: "Men",
     name: "Nellcot Zip Up Leather Jacket",
     price: "£439.00",
     description:
@@ -352,7 +352,7 @@ const products = [
   },
   {
     id: "allsaints-m-12",
-    category: "men",
+    category: "Men",
     name: "Harvey Distressed Crew Neck Jumper",
     price: "£149.00",
     description:
