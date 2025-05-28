@@ -402,6 +402,10 @@ if (product) {
   document.getElementById("productPrice").textContent = product.price;
   document.getElementById("productDescription").textContent =
     product.description;
+
+  const categoryLink = document.getElementById("productCategory");
+  categoryLink.textContent = product.category;
+  categoryLink.href = `/${product.category.toLowerCase()}.html`;
 } else {
   document.querySelector("#prodetails").innerHTML = "<p>Product not found.</p>";
 }
