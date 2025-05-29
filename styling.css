@@ -696,6 +696,16 @@ footer li {
   }
 }
 
+@media (max-width: 768px) {
+  .gallery-container .boxes {
+    flex-direction: column;
+  }
+
+  .gallery-container .boxes .box {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .mobile-nav {
     display: none;
