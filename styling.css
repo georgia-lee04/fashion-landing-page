@@ -694,6 +694,11 @@ footer li {
   .swiper-pagination-bullet {
     display: none;
   }
+
+  p {
+    font-size: 11px;
+    padding: 0 25px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -703,6 +708,10 @@ footer li {
 
   .gallery-container .boxes .box {
     width: 100%;
+  }
+
+  .row {
+    justify-content: center;
   }
 }
 
