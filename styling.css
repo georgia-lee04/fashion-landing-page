@@ -599,17 +599,6 @@ footer li {
   margin-bottom: 60px;
 }
 
-.col-4 {
-  flex-basis: 25%;
-  padding: 2px;
-  min-width: 200px;
-  margin-bottom: 50px;
-}
-
-.col-4 img {
-  width: 100%;
-}
-
 .github-icon {
   font-size: 30px;
   text-align: center;
@@ -709,10 +698,6 @@ footer li {
 
   .gallery-container .boxes .box {
     width: 100%;
-  }
-
-  .row {
-    justify-content: center;
   }
 }
 
